@@ -1,1 +1,1 @@
-# thu-amdms
+# THU AMDNS

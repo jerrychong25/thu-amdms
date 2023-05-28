@@ -1,0 +1,36 @@
+{
+  "name": "main-app",
+  "version": "1.0.0",
+  "description": "Main App That Collects Disaster-Related Tweets And Analyze",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "prod": "node app.js"
+  },
+  "author": "Jerry Chong",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "body-parser": "^1.20.2",
+    "config-yaml": "^1.1.6",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "needle": "^3.2.0",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.5.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "scramjet": "^4.23.2",
+    "telegraf": "^4.12.2",
+    "twitter-api-v2": "^1.14.1",
+    "uuid": "^3.3.2",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
