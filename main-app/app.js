@@ -121,7 +121,7 @@ async function callClassifyAndGeoTagAPIs(tweet) {
 }
 
 async function callGeoapifyPlacesAPIs(tweet) {
-	const geioapifyAPIKey = "b9ab5ba9e1144e7db2df2665edd35b06"
+	const geioapifyAPIKey = "**********"
 
 	const recommendationRescueResponse = await axios.get(`https://api.geoapify.com/v2/places?categories=service.police,office.government&filter=circle:${tweet.location.longitude},${tweet.location.latitude},2500&bias=proximity:${tweet.location.longitude},${tweet.location.latitude}&lang=en&limit=20&apiKey=${geioapifyAPIKey}`, {
 		headers: {
